@@ -1,0 +1,34 @@
+/* Your custom styles */
+footer.page-footer {
+    background-color: #4285f4;
+}
+
+.ht-option {
+}
+
+.ht-option .btn-default {
+    color: #4385f4!important;
+    background-color: #fff!important;
+}
+
+.navbar.navbar-light .breadcrumb .nav-item.active>.nav-link, .navbar.navbar-light .navbar-nav .nav-item.active>.nav-link {
+    border-radius: 10px!important;
+}
+
+/* Bilevel Chart Style */
+circle,
+path {
+  cursor: pointer;
+}
+
+circle {
+  fill: none;
+  pointer-events: all;
+}
+
+#tooltip { 
+	background-color: white;
+	padding: 3px 5px;
+	border: 1px solid black;
+	text-align: center;
+}
